@@ -1,75 +1,76 @@
-# Nuxt Minimal Starter
+# Bruno Chatbot
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern floating AI customer support chatbot built with Nuxt 3, TypeScript, Tailwind CSS, and the OpenAI API.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Floating chatbot widget
+- Real AI responses using OpenAI
+- Nuxt 3 + TypeScript architecture
+- Smooth open/close animations
+- Floating Bruno animation
+- Auto-scroll chat behavior
+- Enter-to-send support
+- Loading states
+- Timeout protection
+- Error handling
+- Responsive UI
+- Secure server-side API route
+
+## Tech Stack
+
+- Nuxt 3
+- TypeScript
+- Tailwind CSS
+- OpenAI API
+- Vue 3
+
+## Installation
+
+Clone the repository:
 
 ```bash
-# npm
+git clone https://github.com/Joreb-creator/bruno-chatbot.git
+```
+
+Go into the project folder:
+
+```bash
+cd bruno-chatbot
+```
+
+Install dependencies:
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+Create a `.env` file:
 
-Start the development server on `http://localhost:3000`:
+```env
+OPENAI_API_KEY=your_openai_api_key
+```
+
+Run the development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+## Build for Production
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+## Future Improvements
 
-```bash
-# npm
-npm run preview
+- Streaming AI responses
+- Chat persistence
+- Voice support
+- Knowledge base integration
+- Multi-conversation support
 
-# pnpm
-pnpm preview
+## Author
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Built by Joreb Jimenez
