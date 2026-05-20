@@ -1,4 +1,7 @@
 # Bruno Chatbot
+## Live Demo
+
+bruno-chatbot-h74m79n9i-joreb-creators-projects.vercel.app
 
 A modern floating AI customer support chatbot built with Nuxt 3, TypeScript, Tailwind CSS, and the OpenAI API.
 
